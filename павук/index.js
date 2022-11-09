@@ -2,5 +2,13 @@
 var counter = 0
 
 // Function with Parameter
-const button = document.querySelector(".button");
-button.innerText = "This is a new text!";
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", ()=>{
+
+    if(btn.innerText === "Red"){
+        btn.innerText = "Blue";
+    }else{
+        btn.innerText= "Red";
+    }
+});
