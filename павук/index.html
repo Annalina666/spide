@@ -3,16 +3,21 @@
  <head>
    <link rel="stylesheet" href="css/style.css">
    <script scr="./index.js"></script>
-   <script>
-    // This is Javascript in the HTML File (rather not recommended)
-    function onChangeClick(){
-      var textFromInput = document.getElementById("user-input").value
-       document.getElementById('sample-text').innerText = textFromInput
-    }
-    </script>
     <title> spiders :3 </title>
-    <link rel="icon" type="image/x-icon" href="/images/павук3.png">
+    <link rel="icon" type="image/x-icon" href="./images/павук3.png">
  </head>
+ <script>
+  // This is Javascript in the HTML File (rather not recommended)
+  function onChangeClick(){
+    var textFromInput = document.getElementById("user-input").value
+     document.getElementById('sample-text').innerText = textFromInput
+  }
+  </script>
  <body>
+   <input placeholder="Test" id="user-input"></input>
+   <p id="sample-text">
+    Dyd
+  </p>
+  <button onclick="onChangeClick()"> aaa </button>
 </body>
 </html>
