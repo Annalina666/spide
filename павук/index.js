@@ -2,6 +2,5 @@
 var counter = 0
 
 // Function with Parameter
-function incrementCounter (amount){
-   counter = counter + amount
-}
+const button = document.querySelector(".button");
+button.innerText = "This is a new text!";
