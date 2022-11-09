@@ -6,6 +6,15 @@
     <title> spiders :3 </title>
     <link rel="icon" type="image/x-icon" href="./images/павук3.png">
  </head>
+ <script>
+ unction changeText(){
+  let element = document.getElementById("btn");
+  if (element.value=="Hide Result")
+  	element.value = "Show Result";
+  else
+  	element.value = "Hide Result";
+ }
+ </script>
  <body>
 <input onclick="changeText()" type="button" value="Hide Result" id="btn">
 
