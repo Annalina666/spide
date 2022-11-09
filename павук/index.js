@@ -6,9 +6,9 @@ const btn = document.getElementById("btn");
 
 btn.addEventListener("click", ()=>{
 
-    if(btn.innerText === "Red"){
-        btn.innerText = "Blue";
+    if(btn.value === "Red"){
+        btn.value = "Blue";
     }else{
-        btn.innerText= "Red";
+        btn.value= "Red";
     }
-}
+})
