@@ -8,16 +8,20 @@
  </head>
  <script>
   // This is Javascript in the HTML File (rather not recommended)
-  function onChangeClick(){
-    var textFromInput = document.getElementById("user-input").value
-     document.getElementById('sample-text').innerText = textFromInput
+  function updateButton() {
+      document.getElementById("button1").textContent="Submit";
   }
   </script>
  <body>
-   <input placeholder="Test" id="user-input"></input>
-   <p id="sample-text">
-    Dyd
-  </p>
-  <button onclick="onChangeClick()"> aaa </button>
+   <div id="click-me" onclick="updateButton()">Click here to change button text</div>
+<form action="/action_page.php" method="get" id="form1">
+<label for="firstname">First Name:</label>
+<input type="text" id="fname" name="firstname">
+<label for="lastname">Last Name:</label>
+<input type="text" id="lname" name="lastname">
+</form>
+
+<button id="button1" type="submit" form="form1" value="Submit">Send</button>
+
 </body>
 </html>
