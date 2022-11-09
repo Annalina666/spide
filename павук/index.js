@@ -2,13 +2,10 @@
 var counter = 0
 
 // Function with Parameter
-const btn = document.getElementById("btn");
-
-btn.addEventListener("click", ()=>{
-
-    if(btn.value === "Red"){
-        btn.value = "Blue";
-    }else{
-        btn.value= "Red";
-    }
-})
+function changeText(){
+ let element = document.getElementById("btn");
+ if (element.value=="Hide Result")
+ 	element.value = "Show Result";
+ else
+ 	element.value = "Hide Result";
+}
