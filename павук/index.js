@@ -11,4 +11,4 @@ btn.addEventListener("click", ()=>{
     }else{
         btn.innerText= "Red";
     }
-});
+}
