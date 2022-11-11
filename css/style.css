@@ -1,1 +1,61 @@
-html
+html{
+background-image: url(../images/фон.jpeg)}
+
+#btn{
+width: 990px;
+height: 200px;
+background-color:#FF0000;
+margin: 0px 100px 0px 470px;
+display:inline-block;
+padding: 20px 30px;
+color: #000000;
+cursor: pointer;
+transition: 1.10s;
+position:relative;
+font-size: 4vw;
+
+}
+#btn:hover{
+  background-color:#000000;
+  color: #FFFFFF;
+}
+#img1{
+display:inline-block;
+}
+#img2{
+  display:inline-block;
+}
+
+#павутиння {
+background-image:url(../images/павутиння.jpeg);
+width: 900px;
+height: 900px;
+margin-left: 700px;
+background-repeat: no-repeat;
+display: inline-block;
+margin-bottom: 0 auto;
+}
+
+#inside_павутиння
+{
+display: flex;
+width: 800px;
+height: 800px;
+margin: 70px;
+margin-top: 0px;
+padding-top: 50px;
+flex-wrap:wrap;
+
+}
+#inside_павутиння .павук3 {
+  display: block;
+  position: relative;
+  margin: 50px;
+  object-fit: contain;
+}
+h3 {
+color:#FFFFFF;
+font-size: 100px;
+font-size: oblique;
+margin: 20px 20px 20px 20px;
+}
